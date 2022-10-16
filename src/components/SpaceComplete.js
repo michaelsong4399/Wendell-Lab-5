@@ -33,7 +33,7 @@ function Space() {
 
         // Use mouse to control camera position
         const controls = new OrbitControls(camera, renderer.domElement);
-        controls.zoomSpeed = 0.5;
+        controls.zoomSpeed = 1;
         controls.rotateSpeed = 0.8;
         controls.minDistance = 2;
         controls.maxDistance = 200;
